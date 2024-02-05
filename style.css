@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+   width: 1920px;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar {
+    width: 1920px;
+    height: 107px;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+
+.logo {
+
+    width: 230px;
+    height: 73px;
+    position: absolute;
+    top: 17px;
+    left: 390px;
+
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.navlinks {
+   width: 463px;
+    height: 22px;
+    position: absolute;
+    top: 43px;
+    left: 715px;
+    gap: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navlinks p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 16px;
+    color: rgba(24, 8, 7, 1);
+
+
+
+}
+b{
+font-weight: 700;
+
+
+}
+
+.navselect{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 16px;
+    color: rgba(24, 8, 7, 1);
+}
+
+.questions {
+    width: 307px;
+    height: 100%;
+    position: absolute;
+    left: 1223px;
+    background: rgba(233, 152, 63, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.questions_left {
+   width: 50px;
+    height: 50px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.questions_left i {
+    font-size: 2rem;
+
+}
+
+.questions_right {
+    width: 216px;
+    height: 55px;
+
+
+
+
+}
+
+.whatsapp {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.number {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    color: white;
+}
+
+.banner {
+
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+
+}
+
+.banner_img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay h1 {
+    width: 548px;
+    height: 152px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.contact_para {
+   width: 580px;
+    height: 54px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+
+.main_btn {
+    width: 242px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    gap: 30px;
+   background-color: white;
+    z-index: 1000;
+    color: rgba(233, 152, 63, 1);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.orange {
+    background-color: rgba(233, 152, 63, 1);
+    color: white;
+}
+
+.about_one {
+
+    width: 1135px;
+    height: 517px;
+    top: 800px;
+    left: 395px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about_one_left {
+   width: 458px;
+    height: 517px;
+
+
+}
+
+.about_one_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_one_right {
+
+    width: 555px;
+    height: 395px;
+
+
+}
+
+.about_one_right_heading {
+    width: 488px;
+    height: 126px;
+    padding-left: 1rem;
+    border-left: 3px solid #e9983f;
+    margin-bottom: 1rem;
+
+}
+
+.about_one_right_heading h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+.about_one_right_para {
+    width: 555px;
+    height: 132px;
+
+
+}
+
+
+
+.about_two {
+    width: 1920px;
+    height: 719px;
+    top: 1419px;
+    background: rgba(242, 235, 227, 0.53);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.about_two_main {
+    width: 1135px;
+    height: 513px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about_two_left {
+    width: 607px;
+    height: 408px;
+
+}
+
+.about_two_left_heading {
+    width: 488px;
+    height: 78px;
+
+}
+
+.about_two_left_heading h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about_two_left_para {
+    width: 555px;
+    height: 66px;
+
+}
+
+.about_fees_content {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.about_fees {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9983f;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.about_fees p {
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about_two_right {
+    width: 479px;
+    height: 513px;
+
+}
+
+.about_two_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.pooja_container {
+    width: 1920px;
+    height: 719px;
+    top: 2138px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pooja_main {
+    width: 1135px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pooja_heading {
+    width: 488px;
+    height: 78px;
+    text-align: center;
+
+
+
+}
+
+.pooja_heading h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.pooja_cards_container {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card {
+    width: 360px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card_orange {
+    width: 45%;
+    background-color: rgba(233, 152, 63, 1);
+    color: white;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.card h2 {
+    font-family: Hind;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.action_bar {
+    width: 1920px;
+    height: 305px;
+    top: 2853px;
+    position: absolute;
+    background-image: url('/images/action_bar.png');
+    background-position: center
+}
+
+.action_heading {
+    width: 488px;
+    height: 117px;
+    margin-top: 10px;
+
+
+}
+
+.action_heading h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.action_btn {
+    width: 9%;
+}
+
+.contact_container {
+    width: 1920px;
+    height: 657px;
+    top: 3154px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(242, 235, 227, 0.53);
+
+
+}
+
+.contact_main {
+    width: 1135px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact_left {
+    width: 555px;
+    height: 100%;
+}
+
+.contact_left_heading {
+    width: 488px;
+    height: 78px;
+    margin-bottom: 1rem;
+    border-left: 3px solid #e9983f;
+    padding-left: 1rem;
+
+
+}
+
+.contact_left_heading h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.contact_left_para {
+    width: 555px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contact_left_para p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+small {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.19em;
+    text-align: right;
+    color: rgba(24, 8, 7, 0.37);
+
+
+}
+
+.contact_right {
+    width: 555px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_right input {
+    height: 45px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+}
+
+select {
+    height: 45px;
+    border: none;
+}
+
+option:first {
+    padding: 10px;
+    color: rgba(106, 106, 106, 1);
+
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city_input {
+    width: 262px;
+    height: 45px;
+
+}
+
+::placeholder {
+    padding: 10px;
+    color: rgba(106, 106, 106, 1);
+
+}
+
+
+textarea {
+    height: 104px;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    width: 137px;
+    height: 48px;
+    padding: 12px, 18px, 12px, 18px;
+    gap: 16px;
+    background: rgba(233, 152, 63, 1);
+    color: white;
+
+}
+
+.footer {
+    width: 1920px;
+    height: 419px;
+    top: 3807px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.footer_main {
+    width: 1135px;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.footer_about {
+    width: 294px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.footer_about p {
+    color: rgba(255, 255, 255, 0.53);
+
+}
+.footer h1{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+}
+
+.footer_icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_main h1 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.quick_links {
+    width: 113px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.links {
+    height: 80%;
+    width: 100%;
+
+}
+
+.links ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.53);
+
+}
+
+.other_puja {
+    width: 266px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.free {
+    width: 241px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.links_free {
+    height: 70%;
+
+}
+
+.links_free ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.53);
+
+}
+
+.copyright {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px gray solid;
+    color: rgba(255, 255, 255, 0.53);
+    ;
+
+
+}
